@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71482301EC71DB6005104B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714822F1EC71DB6005104B6 /* AppDelegate.swift */; };
+		E71482321EC71DB6005104B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71482311EC71DB6005104B6 /* ViewController.swift */; };
+		E71482351EC71DB6005104B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71482331EC71DB6005104B6 /* Main.storyboard */; };
+		E71482371EC71DB6005104B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71482361EC71DB6005104B6 /* Assets.xcassets */; };
+		E714823A1EC71DB6005104B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71482381EC71DB6005104B6 /* LaunchScreen.storyboard */; };
+		E71482451EC71DB6005104B6 /* ShibaWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71482441EC71DB6005104B6 /* ShibaWeatherTests.swift */; };
+		E71482571EC71F44005104B6 /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482501EC71F44005104B6 /* Dosis-Bold.ttf */; };
+		E71482581EC71F44005104B6 /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482511EC71F44005104B6 /* Dosis-ExtraBold.ttf */; };
+		E71482591EC71F44005104B6 /* Dosis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482521EC71F44005104B6 /* Dosis-ExtraLight.ttf */; };
+		E714825A1EC71F44005104B6 /* Dosis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482531EC71F44005104B6 /* Dosis-Light.ttf */; };
+		E714825B1EC71F44005104B6 /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482541EC71F44005104B6 /* Dosis-Medium.ttf */; };
+		E714825C1EC71F44005104B6 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482551EC71F44005104B6 /* Dosis-Regular.ttf */; };
+		E714825D1EC71F44005104B6 /* Dosis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71482561EC71F44005104B6 /* Dosis-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E71482411EC71DB6005104B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71482241EC71DB6005104B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E714822B1EC71DB6005104B6;
+			remoteInfo = ShibaWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E714822C1EC71DB6005104B6 /* ShibaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShibaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E714822F1EC71DB6005104B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E71482311EC71DB6005104B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E71482341EC71DB6005104B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E71482361EC71DB6005104B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E71482391EC71DB6005104B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E714823B1EC71DB6005104B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71482401EC71DB6005104B6 /* ShibaWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShibaWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71482441EC71DB6005104B6 /* ShibaWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShibaWeatherTests.swift; sourceTree = "<group>"; };
+		E71482461EC71DB6005104B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71482501EC71F44005104B6 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.ttf"; sourceTree = "<group>"; };
+		E71482511EC71F44005104B6 /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E71482521EC71F44005104B6 /* Dosis-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E71482531EC71F44005104B6 /* Dosis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.ttf"; sourceTree = "<group>"; };
+		E71482541EC71F44005104B6 /* Dosis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.ttf"; sourceTree = "<group>"; };
+		E71482551EC71F44005104B6 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		E71482561EC71F44005104B6 /* Dosis-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-SemiBold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71482291EC71DB6005104B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714823D1EC71DB6005104B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71482231EC71DB6005104B6 = {
+			isa = PBXGroup;
+			children = (
+				E714822E1EC71DB6005104B6 /* ShibaWeather */,
+				E71482431EC71DB6005104B6 /* ShibaWeatherTests */,
+				E714822D1EC71DB6005104B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E714822D1EC71DB6005104B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E714822C1EC71DB6005104B6 /* ShibaWeather.app */,
+				E71482401EC71DB6005104B6 /* ShibaWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E714822E1EC71DB6005104B6 /* ShibaWeather */ = {
+			isa = PBXGroup;
+			children = (
+				E714824F1EC71F28005104B6 /* Resouces */,
+				E714822F1EC71DB6005104B6 /* AppDelegate.swift */,
+				E71482311EC71DB6005104B6 /* ViewController.swift */,
+				E71482331EC71DB6005104B6 /* Main.storyboard */,
+				E71482361EC71DB6005104B6 /* Assets.xcassets */,
+				E71482381EC71DB6005104B6 /* LaunchScreen.storyboard */,
+				E714823B1EC71DB6005104B6 /* Info.plist */,
+			);
+			path = ShibaWeather;
+			sourceTree = "<group>";
+		};
+		E71482431EC71DB6005104B6 /* ShibaWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E71482441EC71DB6005104B6 /* ShibaWeatherTests.swift */,
+				E71482461EC71DB6005104B6 /* Info.plist */,
+			);
+			path = ShibaWeatherTests;
+			sourceTree = "<group>";
+		};
+		E714824F1EC71F28005104B6 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				E71482501EC71F44005104B6 /* Dosis-Bold.ttf */,
+				E71482511EC71F44005104B6 /* Dosis-ExtraBold.ttf */,
+				E71482521EC71F44005104B6 /* Dosis-ExtraLight.ttf */,
+				E71482531EC71F44005104B6 /* Dosis-Light.ttf */,
+				E71482541EC71F44005104B6 /* Dosis-Medium.ttf */,
+				E71482551EC71F44005104B6 /* Dosis-Regular.ttf */,
+				E71482561EC71F44005104B6 /* Dosis-SemiBold.ttf */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E714822B1EC71DB6005104B6 /* ShibaWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71482491EC71DB6005104B6 /* Build configuration list for PBXNativeTarget "ShibaWeather" */;
+			buildPhases = (
+				E71482281EC71DB6005104B6 /* Sources */,
+				E71482291EC71DB6005104B6 /* Frameworks */,
+				E714822A1EC71DB6005104B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShibaWeather;
+			productName = ShibaWeather;
+			productReference = E714822C1EC71DB6005104B6 /* ShibaWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E714823F1EC71DB6005104B6 /* ShibaWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E714824C1EC71DB6005104B6 /* Build configuration list for PBXNativeTarget "ShibaWeatherTests" */;
+			buildPhases = (
+				E714823C1EC71DB6005104B6 /* Sources */,
+				E714823D1EC71DB6005104B6 /* Frameworks */,
+				E714823E1EC71DB6005104B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71482421EC71DB6005104B6 /* PBXTargetDependency */,
+			);
+			name = ShibaWeatherTests;
+			productName = ShibaWeatherTests;
+			productReference = E71482401EC71DB6005104B6 /* ShibaWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71482241EC71DB6005104B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = moeCodes;
+				TargetAttributes = {
+					E714822B1EC71DB6005104B6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H3P6GNU744;
+						ProvisioningStyle = Automatic;
+					};
+					E714823F1EC71DB6005104B6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H3P6GNU744;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E714822B1EC71DB6005104B6;
+					};
+				};
+			};
+			buildConfigurationList = E71482271EC71DB6005104B6 /* Build configuration list for PBXProject "ShibaWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E71482231EC71DB6005104B6;
+			productRefGroup = E714822D1EC71DB6005104B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E714822B1EC71DB6005104B6 /* ShibaWeather */,
+				E714823F1EC71DB6005104B6 /* ShibaWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E714822A1EC71DB6005104B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E714823A1EC71DB6005104B6 /* LaunchScreen.storyboard in Resources */,
+				E71482371EC71DB6005104B6 /* Assets.xcassets in Resources */,
+				E71482571EC71F44005104B6 /* Dosis-Bold.ttf in Resources */,
+				E714825A1EC71F44005104B6 /* Dosis-Light.ttf in Resources */,
+				E714825C1EC71F44005104B6 /* Dosis-Regular.ttf in Resources */,
+				E714825B1EC71F44005104B6 /* Dosis-Medium.ttf in Resources */,
+				E71482581EC71F44005104B6 /* Dosis-ExtraBold.ttf in Resources */,
+				E71482351EC71DB6005104B6 /* Main.storyboard in Resources */,
+				E714825D1EC71F44005104B6 /* Dosis-SemiBold.ttf in Resources */,
+				E71482591EC71F44005104B6 /* Dosis-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714823E1EC71DB6005104B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71482281EC71DB6005104B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71482321EC71DB6005104B6 /* ViewController.swift in Sources */,
+				E71482301EC71DB6005104B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714823C1EC71DB6005104B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71482451EC71DB6005104B6 /* ShibaWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E71482421EC71DB6005104B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E714822B1EC71DB6005104B6 /* ShibaWeather */;
+			targetProxy = E71482411EC71DB6005104B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E71482331EC71DB6005104B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71482341EC71DB6005104B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E71482381EC71DB6005104B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71482391EC71DB6005104B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71482471EC71DB6005104B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E71482481EC71DB6005104B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E714824A1EC71DB6005104B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3P6GNU744;
+				INFOPLIST_FILE = ShibaWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.ShibaWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E714824B1EC71DB6005104B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3P6GNU744;
+				INFOPLIST_FILE = ShibaWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.ShibaWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E714824D1EC71DB6005104B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H3P6GNU744;
+				INFOPLIST_FILE = ShibaWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.ShibaWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShibaWeather.app/ShibaWeather";
+			};
+			name = Debug;
+		};
+		E714824E1EC71DB6005104B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H3P6GNU744;
+				INFOPLIST_FILE = ShibaWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.ShibaWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShibaWeather.app/ShibaWeather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71482271EC71DB6005104B6 /* Build configuration list for PBXProject "ShibaWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71482471EC71DB6005104B6 /* Debug */,
+				E71482481EC71DB6005104B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71482491EC71DB6005104B6 /* Build configuration list for PBXNativeTarget "ShibaWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E714824A1EC71DB6005104B6 /* Debug */,
+				E714824B1EC71DB6005104B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E714824C1EC71DB6005104B6 /* Build configuration list for PBXNativeTarget "ShibaWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E714824D1EC71DB6005104B6 /* Debug */,
+				E714824E1EC71DB6005104B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E71482241EC71DB6005104B6 /* Project object */;
+}
